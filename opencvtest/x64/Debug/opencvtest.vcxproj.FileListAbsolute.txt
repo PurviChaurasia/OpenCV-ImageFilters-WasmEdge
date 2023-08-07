@@ -1,0 +1,1 @@
+C:\opencv\opencvtest\x64\Debug\opencvtest.exe
