@@ -64,10 +64,11 @@ All the image filters are used from OpenCV built-in library and are defined unde
                            )
    ```
    
-   ###### Output
+   ##### Output
    | Original | Output |
    | -------- | ------ |
-   | 1 | 2 |
+   | ![image](https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/16830010-b22a-4676-a5f1-0ff1afa91223)
+ | ![image](https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/267b1465-6dbd-4e3c-a2ff-64ec24e7e687)|
 
 
    
