@@ -11,8 +11,8 @@ System : Windows 11
 ### Configuring OpenCV 
 1. Install [Visual Studio 2017](https://visualstudio.microsoft.com/) on your system.
 2. Install the latest release of [OpenCV]{https://opencv.org/releases/} on your system. 
-3. Edit System Variables and inlcude the follwoing in the '''Path''' variable:
-   ''' <path to OpenCV source>/build/x64/vc15/bin'''
+3. Edit System Variables and inlcude the follwoing in the ```Path``` variable:
+   ``` <path to OpenCV source>/build/x64/vc15/bin ```
 
 
 ## Filters Implemented with OpenCV
