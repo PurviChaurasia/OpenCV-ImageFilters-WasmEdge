@@ -67,14 +67,12 @@ All the image filters are used from OpenCV built-in library and are defined unde
    ##### Output
    <table>
     <tr>
-        <td>A</td><td>B</td><td>C</td><td>D</td>
+        <td>![image](https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008)
+</td><td>![image](https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/ea87ad71-74cf-49f3-90b5-56e4898ee0ce)
+</td><
     </tr>
 </table>
-   | Original | Output |
-| ------------------------ | ------------------------ |
-| ![Original Image](https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/afc3e1da-0fe0-4d8a-85bb-79dbefd7f7de)
-| ![Output Image](https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/fd82d753-d3af-4a7b-87aa-4ae89fb5b770)|
-
+  
 
    
 
