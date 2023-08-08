@@ -39,7 +39,23 @@ System : Windows 11
 ## Available Image Filters
 
 All the image filters are used from OpenCV built-in library and are defined under ```opencvtest.cpp ```.   <br />
-1. #### Box Filter
+1. ### [Box Filter] (https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html#gad533230ebf2d42509547d514f7d3fbc3)
+   The Box Filter operation is similar to the averaging blur operation; it applies a bilateral image to a filter.
+   ##### Function Parameters :
+   ```
+         void cv::boxFilter(	InputArray 	src,
+                              OutputArray 	dst,
+                              int 	ddepth,
+                              Size 	ksize,
+                              Point 	anchor = Point(-1,-1),
+                              bool 	normalize = true,
+                              int 	borderType = BORDER_DEFAULT 
+                           )
+   ```
+   
+   ###### Output
+
+
    
 
    
