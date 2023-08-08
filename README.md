@@ -23,12 +23,10 @@ System : Windows 11
    ```
    <path to OpenCV source>/build\include
    ```  
-   <br />
    ```
    <path to OpenCV source>/build\x64\vc15\lib
    ```
-   <br />
-   
+
 4. Head over to the Linker tab under properties and the following .lib file <br />
    ``` opencv_world420d.lib ```
 
