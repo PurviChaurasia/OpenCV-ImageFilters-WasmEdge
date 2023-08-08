@@ -28,7 +28,7 @@ System : Windows 11
 
 ## Running the program
 
-1. Clone this repository and add it under  ``` <path to OpenCV source> ```.
+1. Clone this repository and add it under  ``` <path to OpenCV source> ```. <br />
    ``` git clone https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge.git ```
 2. Check the path to the images to be filtered.
 3. Build solution and run it.
