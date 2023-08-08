@@ -65,6 +65,9 @@ All the image filters are used from OpenCV built-in library and are defined unde
    ```
    
    ###### Output
+   | Original | Output |
+   | -------- | ------ |
+   | 1 | 2 |
 
 
    
