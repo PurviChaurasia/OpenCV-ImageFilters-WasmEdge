@@ -12,15 +12,22 @@ System : Windows 11
 1. Install [Visual Studio 2017](https://visualstudio.microsoft.com/) on your system.
 2. Install the latest release of [OpenCV](https://opencv.org/releases/) on your system. 
 3. Edit System Variables and inlcude the follwoing in the ```Path``` variable:<br />
-   ``` <path to OpenCV source>/build/x64/vc15/bin ```
+   ```
+   <path to OpenCV source>/build/x64/vc15/bin
+    ```
 
 ### Linking necessery dependencies  
 1. After creating a project in visual studio, navigate to the properties of the project.
 2. Under ```C++ Directories``` add the path to the ```include``` files for our C++ program.  <br />
    
-   ``` <path to OpenCV source>/build\include ```  <br />
-   
-   ``` <path to OpenCV source>/build\x64\vc15\lib ```  <br />
+   ```
+   <path to OpenCV source>/build\include
+   ```  
+   <br />
+   ```
+   <path to OpenCV source>/build\x64\vc15\lib
+   ```
+   <br />
    
 4. Head over to the Linker tab under properties and the following .lib file <br />
 
@@ -30,16 +37,19 @@ System : Windows 11
 
 1. Clone this repository and add it under  ``` <path to OpenCV source> ```.  <br />
 
-   ``` git clone https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge.git ```  <br />
-2. Check the path to the images to be filtered.
-3. Build solution and run it.
-4. You have your image filters ready!
+   ```
+   git clone https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge.git
+   ```
+   <br />
+3. Check the path to the images to be filtered.
+4. Build solution and run it.
+5. You have your image filters ready!
 
 
 ## Available Image Filters
 
 All the image filters are used from OpenCV built-in library and are defined under ```opencvtest.cpp ```.   <br />
-1. ### [Box Filter] (https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html#gad533230ebf2d42509547d514f7d3fbc3)
+1. ### [Box Filter](https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html#gad533230ebf2d42509547d514f7d3fbc3)
    The Box Filter operation is similar to the averaging blur operation; it applies a bilateral image to a filter.
    ##### Function Parameters :
    ```
