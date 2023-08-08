@@ -30,8 +30,7 @@ System : Windows 11
    <br />
    
 4. Head over to the Linker tab under properties and the following .lib file <br />
-
-   ``` opencv_world420d.lib ``` <br />
+   ``` opencv_world420d.lib ```
 
 ### Running the program
 
@@ -40,7 +39,6 @@ System : Windows 11
    ```
    git clone https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge.git
    ```
-   <br />
 3. Check the path to the images to be filtered.
 4. Build solution and run it.
 5. You have your image filters ready!
