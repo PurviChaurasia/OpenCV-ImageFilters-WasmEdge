@@ -49,8 +49,7 @@ System : Windows 11
 ## Available Image Filters
 
 All the image filters are used from OpenCV built-in library and are defined under ```opencvtest.cpp ```.   <br />
-1. ### [Box Filter]
-   (https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html#gad533230ebf2d42509547d514f7d3fbc3)
+1. ### [Box Filter](https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html#gad533230ebf2d42509547d514f7d3fbc3)
    The Box Filter operation is similar to the averaging blur operation; it applies a bilateral image to a filter.
    ##### Function Parameters :
    ```
@@ -75,10 +74,42 @@ All the image filters are used from OpenCV built-in library and are defined unde
       </td>
    </tr>
     <tr>
-        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="300" height="300"></td>
-        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/ea87ad71-74cf-49f3-90b5-56e4898ee0ce" alt="Image 2" width="300" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="250" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/ea87ad71-74cf-49f3-90b5-56e4898ee0ce" alt="Image 2" width="250" height="300"></td>
     </tr>
 </table>
+
+2. ### Gaussian Blur Filter
+   Blurs an image using a Gaussian filter. The function convolves the source image with the specified Gaussian kernel. In this case the blurring is noiseless.  
+   #### Function Parameters :
+   ```
+   void cv::GaussianBlur	(	InputArray 	src,
+                              OutputArray 	dst,
+                              Size 	ksize,
+                              double 	sigmaX,
+                              double 	sigmaY = 0,
+                              int 	borderType = BORDER_DEFAULT 
+                           )	
+   ```
+
+   #### Output
+   <table>
+   <tr>
+      <td>
+         Original
+      </td>
+      <td>
+         Output
+      </td>
+   </tr>
+    <tr>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="250" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/6b0df783-bcb1-48cd-aba2-2fbc6281b44a" alt="Image 2" width="250" height="300"></td>
+    </tr>
+</table>
+   
+
+
   
   
 
