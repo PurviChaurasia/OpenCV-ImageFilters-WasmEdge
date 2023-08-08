@@ -11,10 +11,16 @@ System : Windows 11
 ### Configuring OpenCV 
 1. Install [Visual Studio 2017](https://visualstudio.microsoft.com/) on your system.
 2. Install the latest release of [OpenCV]{https://opencv.org/releases/} on your system. 
-3. Edit System Variables and inlcude the follwoing in the ```Path``` variable:
-   ``` <path to OpenCV source>/build/x64/vc15/bin ```
+3. Edit System Variables and inlcude the follwoing in the ```Path``` variable:  ``` <path to OpenCV source>/build/x64/vc15/bin ```
+
+### Linking necessery dependencies  
+1. After creating a project in visual studio, navigate to the properties of the project.
+2. Under ```C++ Directories``` add the path to the ```include``` files for our C++ program.
+   ``` <path to OpenCV source>/build\include ```
+   ``` <path to OpenCV source>/build\x64\vc15\lib ```
+3. Head over to the Linker tab under properties.
 
 
 ## Filters Implemented with OpenCV
 1. Box Filter
-2. Gaussian Blur F
+2. Gaussian Blur Filter
