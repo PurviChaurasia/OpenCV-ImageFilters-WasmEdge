@@ -74,8 +74,8 @@ All the image filters are used from OpenCV built-in library and are defined unde
       </td>
    </tr>
     <tr>
-        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="250" height="300"></td>
-        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/ea87ad71-74cf-49f3-90b5-56e4898ee0ce" alt="Image 2" width="250" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="300" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/ea87ad71-74cf-49f3-90b5-56e4898ee0ce" alt="Image 2" width="300" height="300"></td>
     </tr>
 </table>
 
@@ -103,8 +103,27 @@ All the image filters are used from OpenCV built-in library and are defined unde
       </td>
    </tr>
     <tr>
-        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="250" height="300"></td>
-        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/6b0df783-bcb1-48cd-aba2-2fbc6281b44a" alt="Image 2" width="250" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="300" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/6b0df783-bcb1-48cd-aba2-2fbc6281b44a" alt="Image 2" width="300" height="300"></td>
+    </tr>
+</table>
+
+3. ### Median Blur Filter
+   Blurs an image using the median filter. The function smoothes an image using the median filter with the ksize×ksize aperture. Each channel of a multi-channel image
+   is processed independently.
+   #### Output
+   <table>
+   <tr>
+      <td>
+         Original
+      </td>
+      <td>
+         Output
+      </td>
+   </tr>
+    <tr>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="300" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/75a413da-34b2-4d75-96c8-f6caeec64178)" alt="Image 2" width="300" height="300"></td>
     </tr>
 </table>
    
