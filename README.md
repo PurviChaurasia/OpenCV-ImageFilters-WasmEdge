@@ -26,7 +26,7 @@ System : Windows 11
 
    ``` opencv_world420d.lib ``` <br />
 
-## Running the program
+### Running the program
 
 1. Clone this repository and add it under  ``` <path to OpenCV source> ```.  <br />
 
@@ -34,4 +34,12 @@ System : Windows 11
 2. Check the path to the images to be filtered.
 3. Build solution and run it.
 4. You have your image filters ready!
+
+
+## Available Image Filters
+
+All the image filters are used from OpenCV built-in library and are defined under ```opencvtest.cpp ```.   <br />
+1. #### Box Filter
+   
+
    
