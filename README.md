@@ -17,24 +17,20 @@ System : Windows 11
 ### Linking necessery dependencies  
 1. After creating a project in visual studio, navigate to the properties of the project.
 2. Under ```C++ Directories``` add the path to the ```include``` files for our C++ program.  <br />
+   
    ``` <path to OpenCV source>/build\include ```  <br />
    
    ``` <path to OpenCV source>/build\x64\vc15\lib ```  <br />
    
-3. Head over to the Linker tab under properties and the following .lib file <br />
+4. Head over to the Linker tab under properties and the following .lib file <br />
+
    ``` opencv_world420d.lib ``` <br />
 
 ## Running the program
 
 1. Clone this repository and add it under  ``` <path to OpenCV source> ```.
-   ``` git clone ```
+   ``` git clone https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge.git ```
 2. Check the path to the images to be filtered.
 3. Build solution and run it.
 4. You have your image filters ready!
    
-   
-
-
-## Filters Implemented with OpenCV
-1. Box Filter
-2. Gaussian Blur Filter
