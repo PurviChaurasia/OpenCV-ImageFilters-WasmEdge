@@ -75,8 +75,9 @@ All the image filters are used from OpenCV built-in library and are defined unde
     </tr>
 </table>
 
+
 2. ### Gaussian Blur Filter
-   Blurs an image using a Gaussian filter. The function convolves the source image with the specified Gaussian kernel. In this case the blurring is noiseless.  
+Blurs an image using a Gaussian filter. The function convolves the source image with the specified Gaussian kernel. In this case the blurring is noiseless.  
    #### Function Parameters :
    ```
    void cv::GaussianBlur	(	InputArray 	src,
@@ -104,8 +105,9 @@ All the image filters are used from OpenCV built-in library and are defined unde
     </tr>
 </table>
 
+
 3. ### Median Blur Filter
-   Blurs an image using the median filter. The function smoothes an image using the median filter with the ksize×ksize aperture. Each channel of a multi-channel image
+Blurs an image using the median filter. The function smoothes an image using the median filter with the ksize×ksize aperture. Each channel of a multi-channel image
    is processed independently.
    #### Output
    <table>
@@ -122,6 +124,55 @@ All the image filters are used from OpenCV built-in library and are defined unde
         <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/75a413da-34b2-4d75-96c8-f6caeec64178)" alt="Image 2" width="300" height="300"></td>
     </tr>
 </table>
+
+
+4. Sobel Filter
+Calculates the first, second, third, or mixed image derivatives using an extended Sobel operator.
+In all cases except one, the ksize×ksize separable kernel is used to calculate the derivative. When ksize = 1, the 3×1 or 1×3 kernel is used (that is, no Gaussian smoothing is done). ksize = 1 can only be used for the first or the second x- or y- derivatives.
+```
+      void cv::Sobel	(	InputArray 	src,
+                        OutputArray 	dst,
+                        int 	ddepth,
+                        int 	dx,
+                        int 	dy,
+                        int 	ksize = 3,
+                        double 	scale = 1,
+                        double 	delta = 0,
+                        int 	borderType = BORDER_DEFAULT 
+                     )	
+```
+
+#### Output
+   <table>
+   <tr>
+      <td>
+         Original
+      </td>
+      <td>
+         Output
+      </td>
+   </tr>
+   <tr>
+      <td>
+         Sobel Edge Y filter
+      </td>
+   </tr>
+    <tr>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="300" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/9b1370ab-c2d4-4555-9bb8-f92a5f540c75
+" alt="Image 2" width="300" height="300"></td>
+    </tr>
+   <tr>
+      <td>
+         Sobel X Filter
+      </td>
+   </tr>
+   <tr>
+      <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="300" height="300"></td>
+      <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/af5c0180-ff29-4f4c-a4ff-4f1f80f93a70" alt="Image 2" width="300" height="300"></td>
+   </tr>
+</table>
+
    
 
 
