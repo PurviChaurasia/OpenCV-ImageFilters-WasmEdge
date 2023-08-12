@@ -202,6 +202,24 @@ The function applies an arbitrary linear filter to an image. In-place operation 
 </table>
 
 
+### High Pass Filter </br>
+#### Output
+   <table>
+   <tr>
+      <td>
+         Original
+      </td>
+      <td>
+         Output
+      </td>
+   </tr>
+    <tr>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="300" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/713eb4db-c9b1-4d0b-bc5b-2c35aeec7f5a" alt="Image 2" width="300" height="300"></td>
+    </tr>
+</table>
+
+
 
 
    
