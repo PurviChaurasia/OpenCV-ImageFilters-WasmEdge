@@ -159,8 +159,7 @@ In all cases except one, the ksize×ksize separable kernel is used to calculate 
    </tr>
     <tr>
         <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="300" height="300"></td>
-        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/9b1370ab-c2d4-4555-9bb8-f92a5f540c75
-" alt="Image 2" width="300" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/9b1370ab-c2d4-4555-9bb8-f92a5f540c75" alt="Image 2" width="300" height="300"></td>
     </tr>
    <tr>
       <td>
