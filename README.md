@@ -45,7 +45,7 @@ System : Windows 11
 ## Available Image Filters
 
 All the image filters are used from OpenCV built-in library and are defined under ```opencvtest.cpp ```.   <br />
-1. ### [Box Filter](https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html#gad533230ebf2d42509547d514f7d3fbc3)
+### [Box Filter](https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html#gad533230ebf2d42509547d514f7d3fbc3)
    The Box Filter operation is similar to the averaging blur operation; it applies a bilateral image to a filter.
    ##### Function Parameters :
    ```
@@ -76,7 +76,7 @@ All the image filters are used from OpenCV built-in library and are defined unde
 </table>
 
 
-2. ### Gaussian Blur Filter
+### Gaussian Blur Filter </br>
 Blurs an image using a Gaussian filter. The function convolves the source image with the specified Gaussian kernel. In this case the blurring is noiseless.  
    #### Function Parameters :
    ```
@@ -106,7 +106,7 @@ Blurs an image using a Gaussian filter. The function convolves the source image 
 </table>
 
 
-3. ### Median Blur Filter
+### Median Blur Filter </br>
 Blurs an image using the median filter. The function smoothes an image using the median filter with the ksize×ksize aperture. Each channel of a multi-channel image
    is processed independently.
    #### Output
@@ -126,9 +126,9 @@ Blurs an image using the median filter. The function smoothes an image using the
 </table>
 
 
-4. Sobel Filter
+#### Sobel Filter </br>
 Calculates the first, second, third, or mixed image derivatives using an extended Sobel operator.
-In all cases except one, the ksize×ksize separable kernel is used to calculate the derivative. When ksize = 1, the 3×1 or 1×3 kernel is used (that is, no Gaussian smoothing is done). ksize = 1 can only be used for the first or the second x- or y- derivatives.
+In all cases except one, the ksize×ksize separable kernel is used to calculate the derivative. When ksize = 1, the 3×1 or 1×3 kernel is used (that is, no Gaussian smoothing is done). ksize = 1 can only be used for the first or the second x- or y- derivatives. 
 ```
       void cv::Sobel	(	InputArray 	src,
                         OutputArray 	dst,
