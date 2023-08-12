@@ -109,7 +109,7 @@ Blurs an image using a Gaussian filter. The function convolves the source image 
 ### Median Blur Filter </br>
 Blurs an image using the median filter. The function smoothes an image using the median filter with the ksize×ksize aperture. Each channel of a multi-channel image
    is processed independently.
-   #### Output
+#### Output
    <table>
    <tr>
       <td>
@@ -121,12 +121,12 @@ Blurs an image using the median filter. The function smoothes an image using the
    </tr>
     <tr>
         <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/725f5d91-2a34-4f25-89f8-f98d27034008" alt="Image 1" width="300" height="300"></td>
-        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/75a413da-34b2-4d75-96c8-f6caeec64178)" alt="Image 2" width="300" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/75a413da-34b2-4d75-96c8-f6caeec64178" alt="Image 2" width="300" height="300"></td>
     </tr>
 </table>
 
 
-#### Sobel Filter </br>
+### Sobel Filter </br>
 Calculates the first, second, third, or mixed image derivatives using an extended Sobel operator.
 In all cases except one, the ksize×ksize separable kernel is used to calculate the derivative. When ksize = 1, the 3×1 or 1×3 kernel is used (that is, no Gaussian smoothing is done). ksize = 1 can only be used for the first or the second x- or y- derivatives. 
 ```
@@ -171,6 +171,38 @@ In all cases except one, the ksize×ksize separable kernel is used to calculate 
       <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/af5c0180-ff29-4f4c-a4ff-4f1f80f93a70" alt="Image 2" width="300" height="300"></td>
    </tr>
 </table>
+
+### Sharpen Filter </br>
+Convolves an image with the kernel.
+The function applies an arbitrary linear filter to an image. In-place operation is supported. When the aperture is partially outside the image, the function interpolates outlier pixel values according to the specified border mode.
+```
+     void cv::filter2D	(	InputArray 	src,
+                           OutputArray 	dst,
+                           int 	ddepth,
+                           InputArray 	kernel,
+                           Point 	anchor = Point(-1,-1),
+                           double 	delta = 0,
+                           int 	borderType = BORDER_DEFAULT 
+                        )	
+```
+#### Output
+   <table>
+   <tr>
+      <td>
+         Original
+      </td>
+      <td>
+         Output
+      </td>
+   </tr>
+    <tr>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/76d1d9a4-536e-4398-8e3a-6aeb98c2ff42" alt="Image 1" width="300" height="300"></td>
+        <td><img src="https://github.com/PurviChaurasia/OpenCV-ImageFilters-WasmEdge/assets/97350598/808417b7-cec9-4fee-a070-454bce875858" alt="Image 2" width="300" height="300"></td>
+    </tr>
+</table>
+
+
+
 
    
 
