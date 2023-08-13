@@ -172,7 +172,7 @@ In all cases except one, the ksize×ksize separable kernel is used to calculate 
    </tr>
 </table>
 
-### Sharpen Filter </br>
+### Emboss Filter </br>
 Convolves an image with the kernel.
 The function applies an arbitrary linear filter to an image. In-place operation is supported. When the aperture is partially outside the image, the function interpolates outlier pixel values according to the specified border mode.
 ```
